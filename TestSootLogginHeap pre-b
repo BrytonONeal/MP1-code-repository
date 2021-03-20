@@ -1,0 +1,7 @@
+Thread Thread-13 wrote static field <HelloThread: int x>
+Thread Thread-14 wrote static field <HelloThread: int x>
+Thread Thread-14 read instance field r0.<HelloThread$TestThread: int y> of object Thread[Thread-14,5,Soot Threadgroup]
+Thread Thread-14 wrote instance field r0.<HelloThread$TestThread: int y> of object Thread[Thread-14,5,Soot Threadgroup]
+Thread Thread-13 read instance field $r2.<HelloThread$TestThread: int y> of object Thread[Thread-13,5,Soot Threadgroup]
+Thread Thread-13 read static field <HelloThread: int x>
+Thread Thread-13 read static field <java.lang.System: java.io.PrintStream out>

@@ -1,0 +1,2 @@
+r1 = staticinvoke <Example: Animal selectAnimal()>()
+virtualinvoke r1.<Animal: void saySomething()>()

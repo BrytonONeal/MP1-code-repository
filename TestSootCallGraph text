@@ -1,0 +1,13 @@
+<Example: Animal selectAnimal()> may call <Cat: void <init>()>
+<Example: void main(java.lang.String[])> may call <Example: Animal selectAnimal()>
+<Example: void main(java.lang.String[])> may call <Cat: void saySomething()>
+<Example: void main(java.lang.String[])> may call <Fish: void saySomething()>
+<Animal: void <init>()> may call <java.lang.Object: void <init>()>
+<Cat: void <init>()> may call <Animal: void <init>()>
+<Cat: void saySomething()> may call <java.lang.System: void <clinit>()>
+<Cat: void saySomething()> may call <java.io.PrintStream: void println(java.lang.String)>
+<Cat: void saySomething()> may call <java.lang.Object: void <clinit>()>
+<Fish: void saySomething()> may call <java.lang.System: void <clinit>()>
+<Fish: void saySomething()> may call <java.io.PrintStream: void println(java.lang.String)>
+<Fish: void saySomething()> may call <java.lang.Object: void <clinit>()>
+Total Edges:12

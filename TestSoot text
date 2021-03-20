@@ -1,0 +1,25 @@
+r0 := @this: HelloThread$TestThread
+<HelloThread: int x> = 1
+return
+specialinvoke r0.<java.lang.Thread: void <init>()>()
+return
+r0 := @this: HelloThread
+specialinvoke r0.<java.lang.Object: void <init>()>()
+return
+r0 := @this: HelloThread$TestThread
+<HelloThread: int x> = 0
+$i0 = r0.<HelloThread$TestThread: int y>
+$i1 = $i0 + 1
+r0.<HelloThread$TestThread: int y> = $i1
+return
+r0 := @parameter0: java.lang.String[]
+$r2 = new HelloThread$TestThread
+specialinvoke $r2.<HelloThread$TestThread: void <init>()>()
+virtualinvoke $r2.<HelloThread$TestThread: void start()>()
+$i3 = $r2.<HelloThread$TestThread: int y>
+$i1 = <HelloThread: int x>
+$i2 = 1 / $i1
+i0 = $i3 + $i2
+$r3 = <java.lang.System: java.io.PrintStream out>
+virtualinvoke $r3.<java.io.PrintStream: void println(int)>(i0)
+return
